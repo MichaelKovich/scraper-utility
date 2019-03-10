@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "lib": ["es7", "dom"],
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "types": ["node", "puppeteer", "promise-retry"],
+    "esModuleInterop": true
+  }
+}
